@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectAllActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주소록"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="#000000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:hint="검색어를 입력하세요"
+            android:textSize="15dp"
+            android:layout_weight="2"
+            />
+
+        <Button
+            android:id="@+id/btn_add1"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:text="검색"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
