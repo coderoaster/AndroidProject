@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".EmailLoginActivity">
+
+    <TextView
+        android:id="@+id/tv_sMain"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="방구석 쉐프"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+        <EditText
+            android:id="@+id/signUp_email"
+            android:layout_width="0px"
+            android:layout_weight="0.7"
+            android:layout_height="wrap_content"
+            android:hint=" 이메일을 입력해주세요"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:fontFamily="@font/yanolja"
+            />
+            <Button
+                android:id="@+id/signUp_email_btn"
+                android:text="인증하기"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:fontFamily="@font/yanolja"
+                android:textSize="20dp"
+                android:background="@drawable/button_background"
+                />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/signUp_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" 비밀번호(8~12자)"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:fontFamily="@font/yanolja"
+            />
+        <EditText
+            android:id="@+id/signUp_pwChk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" 비밀번호 확인"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:padding="20dp"
+            android:fontFamily="@font/yanolja"
+            />
+        <EditText
+            android:id="@+id/signUp_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" 전화번호를 입력해주세요( - 제외)"
+            android:textSize="20dp"
+            android:inputType="number"
+            android:padding="20dp"
+            android:fontFamily="@font/yanolja"
+            />
+        <TextView
+            android:id="@+id/tv_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#BD0000"
+            android:text="이메일 인증을 완료하세요."
+            />
+       <CheckBox
+           android:id="@+id/chb_chk"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="이용약관 및 개인정보 취급방침에 동의해주세요."
+           android:layout_marginTop="20dp"
+           />
+
+        <Button
+            android:id="@+id/btn_signUp"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="회원가입"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/yanolja"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+</LinearLayout>

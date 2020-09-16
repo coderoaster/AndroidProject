@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RoomChef</string>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:background">@drawable/roomchef0036</item>
+
+    </style>
+</resources>

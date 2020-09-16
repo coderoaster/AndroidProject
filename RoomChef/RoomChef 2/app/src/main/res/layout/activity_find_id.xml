@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".EmailLoginActivity">
+
+    <TextView
+        android:id="@+id/tv_fMain"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="방구석 쉐프"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="20dp">
+        <EditText
+            android:id="@+id/findId_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="이메일을 입력해주세요"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:fontFamily="@font/yanolja"
+            />
+        <EditText
+            android:id="@+id/findId_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="전화번호를 입력해주세요"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:fontFamily="@font/yanolja"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_dialog3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#BD0000"
+            />
+
+        <Button
+            android:id="@+id/btn_findId"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:text="비밀번호 바꿀래요!"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/yanolja"
+            />
+    </LinearLayout>
+</LinearLayout>

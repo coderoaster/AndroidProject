@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReviewDetail">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/img_detail"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                />
+
+
+            <TextView
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/title_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edge"
+                android:padding="10dp"
+                />
+            <TextView
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/review_detail"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:lines="14"
+                android:maxLines="16"
+                android:minLines="12"
+                android:layout_height="350dp"
+                android:layout_width="fill_parent"
+                android:scrollbars="vertical"
+                android:background="@drawable/edge"
+                android:padding="10dp"
+                />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/btn_goList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="목록으로"
+                android:textSize="25dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/yanolja"
+                />
+
+
+   </LinearLayout>
+</ScrollView>

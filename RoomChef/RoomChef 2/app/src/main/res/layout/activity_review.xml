@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="후기 작성하기"
+            android:background="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                >
+                <ImageView
+                    android:id="@+id/insert_img1"
+                    android:layout_width="0px"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="20dp"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/select_insert_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="이미지를 등록해주세요"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ed_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="제목을 입력해주세요(15자미만)."
+                android:fontFamily="@font/yanolja"
+                android:background="@drawable/edge"
+                android:padding="10dp"
+                />
+            <EditText
+                android:layout_marginTop="20dp"
+                android:id="@+id/ed_review"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:lines="14"
+                android:maxLines="16"
+                android:minLines="12"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:scrollbars="vertical"
+                android:fontFamily="@font/yanolja"
+                android:hint=" ex) 아주 좋은 어플이에요!"
+                android:background="@drawable/edge"
+                android:padding="10dp"
+
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_insert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="등록"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/yanolja"
+                />
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="취소"
+                android:textSize="25dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/yanolja"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
