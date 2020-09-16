@@ -10,6 +10,6 @@
 ### 메인화면 / Recycle_view , Card_view
 ![initial](https://user-images.githubusercontent.com/66759107/93369094-cf478400-f889-11ea-8939-4c1bc6c268f8.png)
 ### SMTP 코드 
-![initial](https://user-images.githubusercontent.com/66759107/93369143-e5554480-f889-11ea-9fc6-df0ea01a6f6e.png)
+![initial](https://user-images.githubusercontent.com/66759107/93369416-4e3cbc80-f88a-11ea-9f66-63513e65fe6d.png)
 ![initial](https://user-images.githubusercontent.com/66759107/93369144-e5554480-f889-11ea-91ca-43f6bb2cb72a.png)
-![initial](https://user-images.githubusercontent.com/66759107/93369136-e4241780-f889-11ea-989f-2f63c7666eb0.png)
+![initial](https://user-images.githubusercontent.com/66759107/93369448-5a287e80-f88a-11ea-9974-7d14d00ea8b9.png)
