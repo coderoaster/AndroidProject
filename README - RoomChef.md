@@ -18,3 +18,9 @@
 ![initial](https://user-images.githubusercontent.com/66759107/93367602-a625f400-f887-11ea-9b67-d88144573c9d.png)
 ### 로그인 비밀번호 찾기
 ![initial](https://user-images.githubusercontent.com/66759107/93367352-5b0be100-f887-11ea-8089-964d7ae8b03d.png)
+### 파이썬을 이용한 크롤링
+![initial](https://user-images.githubusercontent.com/66759107/93365424-bd171700-f884-11ea-8224-767961f5e642.png)
+### SMTP를 이용한 이메일 인증
+![initial](https://user-images.githubusercontent.com/66759107/93368971-a1623f80-f889-11ea-9497-0b420bd25a46.png)
+### 메인화면 / Recycle_view , Card_view
+![initial](https://user-images.githubusercontent.com/66759107/93369094-cf478400-f889-11ea-8939-4c1bc6c268f8.png)
