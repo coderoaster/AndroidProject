@@ -1,6 +1,6 @@
 # RoomChef
 ## 개발환경
-![initial](https://user-images.githubusercontent.com/66759107/93365814-3adb2280-f885-11ea-8b6a-90614b2f0c2b.png)
+
 ## 개발기능설명
 
 ### 파이썬을 이용한 크롤링
