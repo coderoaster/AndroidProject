@@ -1,5 +1,6 @@
 # SemiProject
 ## 안드로이드 주소록 프로젝트
+### 메인프로젝트와 동일한 인원으로 진행된 프로젝트입니다.
 ### 목차
 ![목파](https://user-images.githubusercontent.com/66759107/93501366-4e9f8b00-f950-11ea-8f65-4c2036319358.png)
 ### 로그인
